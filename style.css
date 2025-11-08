@@ -204,8 +204,8 @@ nav .btn-curriculo a:hover {
 
   .foto{
     position: absolute;
-    width: 450px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
     border-radius: 50%;
     background: white;
     margin-left: 76%;
@@ -437,6 +437,7 @@ top: 180vh;
     background-color: #008f80;
     transform: scale(1.05);
   }
+
 
 
 
