@@ -611,11 +611,73 @@ top: -5vh;
 }
 
 
-.contato{
-
+/* Variáveis que seguem o modo claro/escuro do seu site */
+:root {
+  --bg-color: #000;       /* modo escuro padrão */
+  --text-color: #fff;
+  --input-bg: #fff;
+  --input-text: #000;
 }
 
-.contato
+/* Quando seu site estiver em modo claro, essas variáveis serão trocadas por JS */
+body.light-mode {
+  --bg-color: #fff;
+  --text-color: #000;
+  --input-bg: #000;
+  --input-text: #fff;
+}
+
+.contato {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contato h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.form-contato {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-contato input,
+.form-contato textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.form-contato textarea {
+  resize: none;
+}
+
+.form-contato button {
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-contato button:hover {
+  opacity: 0.8;
+}
+
+
 
 
 
