@@ -166,13 +166,25 @@
 
     <section class="formacao">
     <h1>Entre em Contato</h1>
-    <form action="#" method="post" class="form-contato">
-    <input type="text" name="nome" placeholder="Nome:" required>
-    <input type="email" name="email" placeholder="Email:" required>
-    <input type="tel" name="telefone" placeholder="Telefone:">
-    <textarea name="mensagem" rows="5" placeholder="Digite sua Mensagem..." required></textarea>
-    <button type="submit">Enviar</button>
-  </form>
+    <form action="#" class="form1" id="Formulario">
+        
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+        <br>
+        <br>
+         <label for="email">Email:</label>
+        <input type="text" id="email" maxlength="50"  required>
+        <br>
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" maxlength="15"   required>
+        <br>
+        <br>
+         <label for="mensagem">Digite sua Mensagem:</label>
+        <input type="text" id="mensagem" maxlength="90"   required>
+        <button type="submit" class="button1">Enviar</button>
+        
+        </form>
   </section>
     
    
@@ -180,6 +192,7 @@
 
 </body>
 </html>
+
 
 
 
