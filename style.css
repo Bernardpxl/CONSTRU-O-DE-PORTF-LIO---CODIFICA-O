@@ -205,7 +205,7 @@ nav .btn-curriculo a:hover {
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    background: white;
+    background:#8D8D8D;
     margin-left: 76%;
     border: 2px solid #000000;
     transition: all 0.3s ease;
@@ -687,3 +687,4 @@ position: relative;
 top: 6vh;
 left: 5%;
 }
+
