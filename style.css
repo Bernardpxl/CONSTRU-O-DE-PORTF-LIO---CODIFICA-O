@@ -688,3 +688,36 @@ top: 6vh;
 left: 5%;
 }
 
+
+#pag5{
+  background-color: #97BED9;
+  background-blend-mode: multiply; 
+  background-size: cover;
+  height: 33vh;
+}
+
+.rodape{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-content: center;
+}
+.rodimg{
+position: absolute;
+right: 75%;
+height: 220px;
+width: 220px;
+margin-top: 35px;
+}
+.rdp .endereco {
+  text-align: center;
+  left: 45%;
+  position: absolute;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+
+
