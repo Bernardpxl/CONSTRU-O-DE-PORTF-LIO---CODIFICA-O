@@ -14,7 +14,7 @@ document.getElementById("btnDesign").addEventListener("click", () => {
   document.getElementById("modalDesign").style.display = "block";
 });
 
-// Fecha o modal ao clicar no X
+
 document.querySelectorAll(".close").forEach(btn => {
   btn.addEventListener("click", (e) => {
     const modalId = e.target.getAttribute("data-close");
@@ -22,9 +22,10 @@ document.querySelectorAll(".close").forEach(btn => {
   });
 });
 
-// Fecha o modal ao clicar fora dele
+
 window.addEventListener("click", (e) => {
   if (e.target.classList.contains("modal")) {
     e.target.style.display = "none";
   }
 });
+
