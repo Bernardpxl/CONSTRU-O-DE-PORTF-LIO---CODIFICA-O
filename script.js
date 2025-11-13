@@ -28,3 +28,11 @@ window.addEventListener("click", (e) => {
     e.target.style.display = "none";
   }
 });
+
+   function baixarCurriculo() {
+      const link = document.createElement('a');
+      link.href = 'curriculo.pdf'; // Nome do seu arquivo
+      link.download = 'Curriculo - Bernardo Garajau.pdf';
+      link.click();
+    }
+
