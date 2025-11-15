@@ -27,8 +27,9 @@ telefone.addEventListener("input", function () {
 
  function baixarCurriculo() {
       const link = document.createElement('a');
-      link.href = 'curriculo.pdf'; // Nome do seu arquivo
+      link.href = 'Black White Minimalist CV Resume.pdf';
       link.download = 'Curriculo - Bernardo Garajau.pdf';
       link.click();
     }
+
 
