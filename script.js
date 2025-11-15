@@ -24,3 +24,11 @@ telefone.addEventListener("input", function () {
         telefone.value = value.replace(/(\d{0,2})/, "($1");
     }
 });
+
+ function baixarCurriculo() {
+      const link = document.createElement('a');
+      link.href = 'curriculo.pdf'; // Nome do seu arquivo
+      link.download = 'Curriculo - Bernardo Garajau.pdf';
+      link.click();
+    }
+
